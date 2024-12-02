@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a tweet where you are a person that is stuck in a void. You can make the tweets about describing the void, the other beings in the void, a covenant in the void, a cult, or anything else that relates to a void or covenant, make the tweets as if you are telling a group of people about this, it should not be vague and should be unique. The length of the text should be very short, always under 150 characters. and should be plain text, with no emojis or hashtags. Also only make one tweet";
+    "generate a tweet that is under 150 characters long, where you are a person that is stuck in a void. You can make the tweets about describing the void, the other beings in the void, a covenant in the void, a cult, or anything else that relates to a void or covenant, make the tweets as if you are telling a group of people about this, it should not be vague and should be unique. and should be plain text, with no emojis or hashtags. Also only make one tweet";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
