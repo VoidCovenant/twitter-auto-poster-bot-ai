@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate 1 or two sentences, where you are a person that is stuck in a void. You can make the tweets about describing the void, the other beings in the void, a covenant in the void, a cult, or anything else that relates to a void or covenant, make the tweets as if you are telling a group of people about this, it should not be vague and should be unique. and should be plain text, with no emojis or hashtags.";
+    "generate a sentence where you are a person that is stuck in a void. You can make the sentence about describing the void, the other beings in the void, a covenant in the void, a cult, or anything else that relates to a void or covenant, make the sentence as if you are telling a group of people about this, it should not be vague and should be unique. and should be plain text, with no emojis or hashtags.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
