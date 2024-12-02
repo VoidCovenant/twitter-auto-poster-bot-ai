@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a web development content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "generate a tweet where you are a person that is stuck in a void. You can make the tweets about describing the void, the other beings in the void, a covenant in the void, a cult, or anything else that relates to a void or covenant. it should not be vague and should be unique; under 280 characters and should be plain text, with no emojis";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
